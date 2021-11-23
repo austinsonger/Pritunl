@@ -1,0 +1,7 @@
+FROM centos:7
+
+RUN yum update -y
+
+ADD yum.repos.d/* /etc/yum.repos.d/
+
+
